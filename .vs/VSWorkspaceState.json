@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\main",
+    "\\main\\templates",
+    "\\main\\templates\\main",
+    "\\main\\templates\\main\\includes",
+    "\\media",
+    "\\media\\img",
+    "\\media\\media",
+    "\\media\\media\\img",
+    "\\mysite"
+  ],
+  "SelectedNode": "\\main\\urls.py",
+  "PreviewInSolutionExplorer": false
+}

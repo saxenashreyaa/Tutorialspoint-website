@@ -1,0 +1,32 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+
+
+<div class="container">
+    <form action="/addpost/" method="post">
+        {% csrf_token %}
+        <input type="text" name="content" />
+        <input type="submit" value="SUBMIT" />
+    </form>
+
+<br />
+
+<div class="col">
+   {% for post_items in all_the_post %}
+    <div class="row s12 m5">
+        <div class="card-panel teal">
+            <span class="white-text">
+              
+                
+                {{ post_items.content }}
+
+
+            </span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+</div>
+                {% endblock %}
